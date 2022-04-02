@@ -23,6 +23,9 @@ def create_app(test_config=None):
     app.register_blueprint(tools.bp)
     app.register_blueprint(parking_availability.bp)
     app.register_blueprint(home.bp)
+    
+    
+
 
     if test_config is None:
         # load the instance config, if it exists, when not testing
