@@ -63,5 +63,33 @@
             "name": "pandas",
             "code": "python"
         }]
+    },
+    { 
+        "title": "Weather title", 
+        "name": "Weather name",
+        "description": "As a business that requires parking being available to either you or your customers, this will give you a great introduction to how a local business was able to solve their parking problems.",
+        "tags": ["javascript", "js", "python", "py", "notebook", "mapbox", "pandas"],
+        "difficulty": "Advanced",
+        "technology": [{
+            "name": "mapbox",
+            "code": "javascript"
+        },{
+            "name": "pandas",
+            "code": "python"
+        }]
+    },
+    { 
+        "title": "Parking Sensor", 
+        "name": "Weather name",
+        "description": "As a business that requires parking being available to either you or your customers, this will give you a great introduction to how a local business was able to solve their parking problems.",
+        "tags": ["javascript", "js", "python", "py", "notebook", "mapbox", "pandas"],
+        "difficulty": "Advanced",
+        "technology": [{
+            "name": "mapbox",
+            "code": "javascript"
+        },{
+            "name": "pandas",
+            "code": "python"
+        }]
     }
 ]

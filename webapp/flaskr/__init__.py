@@ -18,12 +18,13 @@ def create_app(test_config=None):
         SECRET_KEY='dev'
     )
 
-    from .controllers import use_cases, tools, parking_availability, home
+    from .controllers import use_cases, tools, parking_availability, home, weather, parking_sensor
     app.register_blueprint(use_cases.bp)
     app.register_blueprint(tools.bp)
-    app.register_blueprint(parking_availability.bp)
+    app.register_blueprint(parking_availability.bp)    
     app.register_blueprint(home.bp)
-    
+    app.register_blueprint(weather.bp)
+    app.register_blueprint(parking_sensor.bp)
     
 
 

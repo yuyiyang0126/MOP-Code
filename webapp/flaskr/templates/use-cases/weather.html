@@ -1,0 +1,17 @@
+{% extends 'base.html' %} {% block head %}
+<link href="{{ url_for('static', filename='highlight/styles/default.min.css') }}" rel="stylesheet" />
+<link href="{{ url_for('static', filename='styles/parking_tool.css') }}" rel="stylesheet" />
+<script src="{{ url_for('static', filename='highlight/highlight.min.js') }}"></script>
+<script src='https://api.mapbox.com/mapbox-gl-js/v2.4.0/mapbox-gl.js'></script>
+<script src='https://unpkg.com/@turf/turf@6/turf.min.js'></script>
+<link href='https://api.mapbox.com/mapbox-gl-js/v2.4.0/mapbox-gl.css' rel='stylesheet' /> {% endblock %}
+
+{% block content %}
+<section class="container">
+   <h1>This is a test</h1>
+</section>
+
+
+<template id="parking_tool_graph">
+
+</template> {% endblock %}
