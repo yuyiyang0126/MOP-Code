@@ -66,7 +66,7 @@
     },
     { 
         "title": "Weather title", 
-        "name": "Weather name",
+        "name": "Weather",
         "description": "As a business that requires parking being available to either you or your customers, this will give you a great introduction to how a local business was able to solve their parking problems.",
         "tags": ["javascript", "js", "python", "py", "notebook", "mapbox", "pandas"],
         "difficulty": "Advanced",
@@ -80,7 +80,7 @@
     },
     { 
         "title": "Parking Sensor", 
-        "name": "Weather name",
+        "name": "Weather",
         "description": "As a business that requires parking being available to either you or your customers, this will give you a great introduction to how a local business was able to solve their parking problems.",
         "tags": ["javascript", "js", "python", "py", "notebook", "mapbox", "pandas"],
         "difficulty": "Advanced",
